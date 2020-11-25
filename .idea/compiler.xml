@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-ribbon-server" />
+        <module name="spring-cloud-config-client" />
+        <module name="springcloudzuulservice" />
+        <module name="springcloudeurekaserve" />
+        <module name="springcloudconfigserver" />
+        <module name="springcloudzuulserver" />
+        <module name="spring-cloud-ribbon-service1" />
+        <module name="spring-cloud-eureka-serve" />
+        <module name="springcloudribbonservice" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-cloud-config-client" target="1.8" />
+      <module name="spring-cloud-eureka-serve" target="1.8" />
+      <module name="spring-cloud-ribbon-server" target="1.8" />
+      <module name="spring-cloud-ribbon-service1" target="1.8" />
+      <module name="spring-cloud-test" target="1.8" />
+      <module name="springcloudconfigclient" target="1.8" />
+      <module name="springcloudconfigserver" target="1.8" />
+      <module name="springcloudribbonservice" target="1.8" />
+      <module name="springcloudribbonservice1" target="1.8" />
+      <module name="springcloudzuulserver" target="1.8" />
+      <module name="springcloudzuulservice" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-cloud-config-client" options="-parameters" />
+      <module name="spring-cloud-eureka-serve" options="-parameters" />
+      <module name="spring-cloud-ribbon-server" options="-parameters" />
+      <module name="spring-cloud-ribbon-service1" options="-parameters" />
+      <module name="springcloudconfigclient" options="-parameters" />
+      <module name="springcloudconfigserver" options="-parameters" />
+      <module name="springcloudeurekaserve" options="-parameters" />
+      <module name="springcloudribbonservice" options="-parameters" />
+      <module name="springcloudribbonservice1" options="-parameters" />
+      <module name="springcloudzuulserver" options="-parameters" />
+      <module name="springcloudzuulservice" options="-parameters" />
+    </option>
+  </component>
+</project>
