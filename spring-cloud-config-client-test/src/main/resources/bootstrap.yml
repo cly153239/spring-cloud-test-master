@@ -1,6 +1,6 @@
 spring:
   application:
-    name: config-client
+    name: config-client-test
   cloud:
     config:
       label: master
@@ -19,16 +19,11 @@ spring:
     password: guest
 
 server:
-  port: 8094
+  port: 8084
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8082/eureka/
-management:
-  endpoints:
-    web:
-      exposure:
-        include: bus-refresh
 #management:
 #  security:
 #    enabled: false

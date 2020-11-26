@@ -9,12 +9,13 @@
         <module name="spring-cloud-ribbon-server" />
         <module name="spring-cloud-config-client" />
         <module name="springcloudzuulservice" />
-        <module name="springcloudeurekaserve" />
         <module name="springcloudconfigserver" />
+        <module name="springcloudribbonservice" />
         <module name="springcloudzuulserver" />
         <module name="spring-cloud-ribbon-service1" />
         <module name="spring-cloud-eureka-serve" />
-        <module name="springcloudribbonservice" />
+        <module name="springcloudconfigclienttest" />
+        <module name="springcloudeurekaserve" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +25,7 @@
       <module name="spring-cloud-ribbon-service1" target="1.8" />
       <module name="spring-cloud-test" target="1.8" />
       <module name="springcloudconfigclient" target="1.8" />
+      <module name="springcloudconfigclienttest" target="1.8" />
       <module name="springcloudconfigserver" target="1.8" />
       <module name="springcloudribbonservice" target="1.8" />
       <module name="springcloudribbonservice1" target="1.8" />
@@ -38,6 +40,7 @@
       <module name="spring-cloud-ribbon-server" options="-parameters" />
       <module name="spring-cloud-ribbon-service1" options="-parameters" />
       <module name="springcloudconfigclient" options="-parameters" />
+      <module name="springcloudconfigclienttest" options="-parameters" />
       <module name="springcloudconfigserver" options="-parameters" />
       <module name="springcloudeurekaserve" options="-parameters" />
       <module name="springcloudribbonservice" options="-parameters" />

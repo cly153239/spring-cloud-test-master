@@ -12,6 +12,7 @@
         <module>spring-cloud-ribbon-service</module>
         <module>spring-cloud-zuul-server</module>
         <module>spring-cloud-zuul-service</module>
+        <module>spring-cloud-config-client-test</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

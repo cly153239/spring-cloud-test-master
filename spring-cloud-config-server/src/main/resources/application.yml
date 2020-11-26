@@ -8,9 +8,15 @@ spring:
           uri: https://github.com/cly153239/spring-cloud-test-config
           username: cly153239
           password: 5438@cly
+          basedir: D:\开发\configtemp
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8082/eureka/
 server:
   port: 8083
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
