@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: stream-producer
+  cloud:
+    stream:
+      binders:
+        lagouRabbitBinder:
+          type: rabbit
+          environment:
+            spring:
+              rabbitmq:
+                host: localhost
+                port: 5672
+                username: guest
+                password: guest
+      bindings:
+        output:
+          destination: lagouRabbitBinder
+          content-type: application/json
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8082/eureka/
+server:
+  port: 8095

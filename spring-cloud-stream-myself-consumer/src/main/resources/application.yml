@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: stream-myself-consumer
+  cloud:
+    stream:
+      bindings:
+        input:
+          destination: test
+          content-type: application/json
+          binder: lagouRabbitBinder
+        logOutput:
+          destination: testLog
+          content-type: application/json
+          binder: lagouRabbitBinder
+        logInput:
+          destination: testLog
+          content-type: application/json
+          binder: lagouRabbitBinder
+      binders:
+        lagouRabbitBinder:
+          type: rabbit
+          environment:
+            spring:
+              rabbitmq:
+                host: localhost
+                port: 5672
+                username: guest
+                password: guest
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8082/eureka/
+server:
+  port: 8099
