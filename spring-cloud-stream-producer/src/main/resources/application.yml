@@ -17,6 +17,9 @@ spring:
         output:
           destination: lagouRabbitBinder
           content-type: application/json
+          producer:
+            partitionKeyExpression: payload
+            partitionCount: 2
 
 
 eureka:

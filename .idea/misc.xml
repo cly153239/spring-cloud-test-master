@@ -7,13 +7,13 @@
         <option value="$PROJECT_DIR$/spring-cloud-config-client/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-ribbon-server/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-ribbon-service1/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-stream-producer/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-stream-myself-consumer/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/spring-cloud-stream-producer/spring-cloud-stream-consumer1/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-zipkin-server/pom.xml" />
       </set>
     </option>
   </component>

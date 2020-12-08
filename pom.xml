@@ -13,11 +13,12 @@
         <module>spring-cloud-zuul-server</module>
         <module>spring-cloud-zuul-service</module>
         <module>spring-cloud-config-client-test</module>
-        <module>spring-cloud-stream-first</module>
+        <module>spring-cloud-stream-producer</module>
         <module>spring-cloud-stream-consumer</module>
         <module>spring-cloud-stream-consumer1</module>
         <module>spring-cloud-stream-myself-producer</module>
         <module>spring-cloud-stream-myself-consumer</module>
+        <module>spring-cloud-zipkin-server</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -43,6 +44,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <!-- Lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
 

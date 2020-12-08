@@ -41,6 +41,7 @@
       <module name="springcloudstreammyselfconsumer" target="1.8" />
       <module name="springcloudstreammyselfproducer" target="1.8" />
       <module name="springcloudstreamproducer" target="1.8" />
+      <module name="springcloudzipkinserver" target="1.8" />
       <module name="springcloudzuulserver" target="1.8" />
       <module name="springcloudzuulservice" target="1.8" />
     </bytecodeTargetLevel>
@@ -64,6 +65,7 @@
       <module name="springcloudstreammyselfconsumer" options="-parameters" />
       <module name="springcloudstreammyselfproducer" options="-parameters" />
       <module name="springcloudstreamproducer" options="-parameters" />
+      <module name="springcloudzipkinserver" options="-parameters" />
       <module name="springcloudzuulserver" options="-parameters" />
       <module name="springcloudzuulservice" options="-parameters" />
     </option>

@@ -19,7 +19,7 @@ public class StreamProducerApplication {
     private SendMsgService sendMsgService;
     @RequestMapping(value = "/hello")
     public void hello() {
-        sendMsgService.sendMessage("hello");
+        sendMsgService.sendMessage("hello1244555");
     }
 
 }
