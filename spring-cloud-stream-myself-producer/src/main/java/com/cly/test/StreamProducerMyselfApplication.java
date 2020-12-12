@@ -12,6 +12,7 @@ import org.springframework.cloud.stream.annotation.Output;
 import org.springframework.messaging.Message;
 import org.springframework.messaging.MessageChannel;
 import org.springframework.messaging.support.MessageBuilder;
+import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -20,6 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @EnableBinding(MyProcessor.class)
 @Slf4j
+@EnableScheduling
 public class StreamProducerMyselfApplication {
     public static void main(String[] args){
         SpringApplication.run(StreamProducerMyselfApplication.class, args);

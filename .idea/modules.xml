@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-stream-consumer/springcloudstreamconsumer.iml" filepath="$PROJECT_DIR$/spring-cloud-stream-consumer/springcloudstreamconsumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-stream-consumer1/springcloudstreamconsumer1.iml" filepath="$PROJECT_DIR$/spring-cloud-stream-consumer1/springcloudstreamconsumer1.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-stream-myself-producer/springcloudstreammyselfproducer.iml" filepath="$PROJECT_DIR$/spring-cloud-stream-myself-producer/springcloudstreammyselfproducer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-thread/springcloudthread.iml" filepath="$PROJECT_DIR$/spring-cloud-thread/springcloudthread.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-zuul-server/springcloudzuulserver.iml" filepath="$PROJECT_DIR$/spring-cloud-zuul-server/springcloudzuulserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-zuul-service/springcloudzuulservice.iml" filepath="$PROJECT_DIR$/spring-cloud-zuul-service/springcloudzuulservice.iml" />
     </modules>

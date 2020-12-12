@@ -19,6 +19,7 @@
         <module>spring-cloud-stream-myself-producer</module>
         <module>spring-cloud-stream-myself-consumer</module>
         <module>spring-cloud-zipkin-server</module>
+        <module>spring-cloud-thread</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

@@ -14,7 +14,7 @@
     <file url="file://$PROJECT_DIR$/spring-cloud-stream-myself-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-stream-myself-producer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-stream-producer" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-cloud-zipkin-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-thread" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-zuul-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-zuul-service" charset="UTF-8" />
   </component>
