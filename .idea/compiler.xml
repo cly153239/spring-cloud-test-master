@@ -15,9 +15,12 @@
         <module name="springcloudconfigclienttest" />
         <module name="springcloudeurekaserve" />
         <module name="spring-cloud-ribbon-server" />
+        <module name="springcloudfeignserver" />
+        <module name="springcloudnacoscomsumer" />
         <module name="springcloudconfigserver" />
         <module name="spring-cloud-ribbon-service1" />
         <module name="springcloudstreammyselfproducer" />
+        <module name="spring-cloud-nacos-server" />
         <module name="spring-cloud-stream-myself-consumer" />
         <module name="spring-cloud-config-client" />
         <module name="springcloudstreamconsumer1" />
@@ -27,6 +30,7 @@
     <bytecodeTargetLevel>
       <module name="spring-cloud-config-client" target="1.8" />
       <module name="spring-cloud-eureka-serve" target="1.8" />
+      <module name="spring-cloud-nacos-server" target="1.8" />
       <module name="spring-cloud-ribbon-server" target="1.8" />
       <module name="spring-cloud-ribbon-service1" target="1.8" />
       <module name="spring-cloud-stream-myself-consumer" target="1.8" />
@@ -35,6 +39,9 @@
       <module name="springcloudconfigclient" target="1.8" />
       <module name="springcloudconfigclienttest" target="1.8" />
       <module name="springcloudconfigserver" target="1.8" />
+      <module name="springcloudfeignserver" target="1.8" />
+      <module name="springcloudnacoscomsumer" target="1.8" />
+      <module name="springcloudnacosserver" target="1.8" />
       <module name="springcloudribbonservice" target="1.8" />
       <module name="springcloudribbonservice1" target="1.8" />
       <module name="springcloudstreamconsumer" target="1.8" />
@@ -52,6 +59,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-cloud-config-client" options="-parameters" />
       <module name="spring-cloud-eureka-serve" options="-parameters" />
+      <module name="spring-cloud-nacos-server" options="-parameters" />
       <module name="spring-cloud-ribbon-server" options="-parameters" />
       <module name="spring-cloud-ribbon-service1" options="-parameters" />
       <module name="spring-cloud-stream-myself-consumer" options="-parameters" />
@@ -60,6 +68,9 @@
       <module name="springcloudconfigclienttest" options="-parameters" />
       <module name="springcloudconfigserver" options="-parameters" />
       <module name="springcloudeurekaserve" options="-parameters" />
+      <module name="springcloudfeignserver" options="-parameters" />
+      <module name="springcloudnacoscomsumer" options="-parameters" />
+      <module name="springcloudnacosserver" options="-parameters" />
       <module name="springcloudribbonservice" options="-parameters" />
       <module name="springcloudribbonservice1" options="-parameters" />
       <module name="springcloudstreamconsumer" options="-parameters" />

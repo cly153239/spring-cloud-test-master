@@ -18,8 +18,10 @@
         <module>spring-cloud-stream-consumer1</module>
         <module>spring-cloud-stream-myself-producer</module>
         <module>spring-cloud-stream-myself-consumer</module>
-        <module>spring-cloud-zipkin-server</module>
         <module>spring-cloud-thread</module>
+        <module>spring-cloud-nacos-server</module>
+        <module>spring-cloud-nacos-comsumer</module>
+        <module>spring-cloud-feign-server</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

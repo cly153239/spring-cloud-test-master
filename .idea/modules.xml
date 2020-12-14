@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-config-client/spring-cloud-config-client.iml" filepath="$PROJECT_DIR$/spring-cloud-config-client/spring-cloud-config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-serve/spring-cloud-eureka-serve.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-serve/spring-cloud-eureka-serve.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-nacos-server/spring-cloud-nacos-server.iml" filepath="$PROJECT_DIR$/spring-cloud-nacos-server/spring-cloud-nacos-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-ribbon-server/spring-cloud-ribbon-server.iml" filepath="$PROJECT_DIR$/spring-cloud-ribbon-server/spring-cloud-ribbon-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-ribbon-service1/spring-cloud-ribbon-service1.iml" filepath="$PROJECT_DIR$/spring-cloud-ribbon-service1/spring-cloud-ribbon-service1.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-stream-myself-consumer/spring-cloud-stream-myself-consumer.iml" filepath="$PROJECT_DIR$/spring-cloud-stream-myself-consumer/spring-cloud-stream-myself-consumer.iml" />
@@ -11,6 +12,8 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-test.iml" filepath="$PROJECT_DIR$/spring-cloud-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-config-client-test/springcloudconfigclienttest.iml" filepath="$PROJECT_DIR$/spring-cloud-config-client-test/springcloudconfigclienttest.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-config-server/springcloudconfigserver.iml" filepath="$PROJECT_DIR$/spring-cloud-config-server/springcloudconfigserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-feign-server/springcloudfeignserver.iml" filepath="$PROJECT_DIR$/spring-cloud-feign-server/springcloudfeignserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-nacos-comsumer/springcloudnacoscomsumer.iml" filepath="$PROJECT_DIR$/spring-cloud-nacos-comsumer/springcloudnacoscomsumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-ribbon-service/springcloudribbonservice.iml" filepath="$PROJECT_DIR$/spring-cloud-ribbon-service/springcloudribbonservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-stream-consumer/springcloudstreamconsumer.iml" filepath="$PROJECT_DIR$/spring-cloud-stream-consumer/springcloudstreamconsumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-stream-consumer1/springcloudstreamconsumer1.iml" filepath="$PROJECT_DIR$/spring-cloud-stream-consumer1/springcloudstreamconsumer1.iml" />

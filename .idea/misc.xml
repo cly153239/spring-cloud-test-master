@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/spring-cloud-ribbon-server/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-ribbon-service1/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-stream-myself-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-nacos-server/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
