@@ -17,11 +17,13 @@
         <module name="spring-cloud-ribbon-server" />
         <module name="springcloudfeignserver" />
         <module name="springcloudnacoscomsumer" />
+        <module name="springcloudsentinelserver" />
         <module name="springcloudconfigserver" />
         <module name="spring-cloud-ribbon-service1" />
         <module name="springcloudstreammyselfproducer" />
         <module name="spring-cloud-nacos-server" />
         <module name="spring-cloud-stream-myself-consumer" />
+        <module name="springcloudnacosconfig" />
         <module name="spring-cloud-config-client" />
         <module name="springcloudstreamconsumer1" />
         <module name="springcloudstreamconsumer" />
@@ -41,9 +43,11 @@
       <module name="springcloudconfigserver" target="1.8" />
       <module name="springcloudfeignserver" target="1.8" />
       <module name="springcloudnacoscomsumer" target="1.8" />
+      <module name="springcloudnacosconfig" target="1.8" />
       <module name="springcloudnacosserver" target="1.8" />
       <module name="springcloudribbonservice" target="1.8" />
       <module name="springcloudribbonservice1" target="1.8" />
+      <module name="springcloudsentinelserver" target="1.8" />
       <module name="springcloudstreamconsumer" target="1.8" />
       <module name="springcloudstreamconsumer1" target="1.8" />
       <module name="springcloudstreammyselfconsumer" target="1.8" />
@@ -70,9 +74,11 @@
       <module name="springcloudeurekaserve" options="-parameters" />
       <module name="springcloudfeignserver" options="-parameters" />
       <module name="springcloudnacoscomsumer" options="-parameters" />
+      <module name="springcloudnacosconfig" options="-parameters" />
       <module name="springcloudnacosserver" options="-parameters" />
       <module name="springcloudribbonservice" options="-parameters" />
       <module name="springcloudribbonservice1" options="-parameters" />
+      <module name="springcloudsentinelserver" options="-parameters" />
       <module name="springcloudstreamconsumer" options="-parameters" />
       <module name="springcloudstreamconsumer1" options="-parameters" />
       <module name="springcloudstreammyselfconsumer" options="-parameters" />

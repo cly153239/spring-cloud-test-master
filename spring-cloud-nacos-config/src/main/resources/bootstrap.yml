@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: nacos-config
+#  profiles:
+#    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: 71beea23-b6b3-4361-b36e-72d21089a590
+        group: test
+      config:
+        file-extension: yml
+        server-addr: 127.0.0.1:8848
+        namespace: 71beea23-b6b3-4361-b36e-72d21089a590
+        shared-dataids: shared-config1.yml,shared-config2.yml
+        refreshable-dataids: shared-config1.yml,shared-config2.yml
+        ext-config:
+          - data-id: share-config3.yml
+            refresh: true
+          - data-id: share-config4.yml
+            refresh: true
+            group: config4

@@ -22,6 +22,8 @@
         <module>spring-cloud-nacos-server</module>
         <module>spring-cloud-nacos-comsumer</module>
         <module>spring-cloud-feign-server</module>
+        <module>spring-cloud-sentinel-server</module>
+        <module>spring-cloud-nacos-config</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
