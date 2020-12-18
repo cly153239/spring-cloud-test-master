@@ -9,7 +9,10 @@
     <file url="file://$PROJECT_DIR$/spring-cloud-feign-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-nacos-comsumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-nacos-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-nacos-sentinel-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-nacos-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-rabbitmq-comsumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-rabbitmq-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-ribbon-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-ribbon-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-ribbon-service1" charset="UTF-8" />

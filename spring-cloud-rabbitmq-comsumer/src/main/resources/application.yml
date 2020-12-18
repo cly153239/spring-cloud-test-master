@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: rabitmq-comsumer
+  rabbitmq:
+    host: 127.0.0.1
+    password: guest
+    username: guest
+    port: 5672
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8082/eureka/
+server:
+  port: 8108

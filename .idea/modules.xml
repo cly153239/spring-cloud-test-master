@@ -15,6 +15,9 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-feign-server/springcloudfeignserver.iml" filepath="$PROJECT_DIR$/spring-cloud-feign-server/springcloudfeignserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-nacos-comsumer/springcloudnacoscomsumer.iml" filepath="$PROJECT_DIR$/spring-cloud-nacos-comsumer/springcloudnacoscomsumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-nacos-config/springcloudnacosconfig.iml" filepath="$PROJECT_DIR$/spring-cloud-nacos-config/springcloudnacosconfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-nacos-sentinel-server/springcloudnacossentinelserver.iml" filepath="$PROJECT_DIR$/spring-cloud-nacos-sentinel-server/springcloudnacossentinelserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-rabbitmq-comsumer/springcloudrabbitmqcomsumer.iml" filepath="$PROJECT_DIR$/spring-cloud-rabbitmq-comsumer/springcloudrabbitmqcomsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-rabbitmq-provider/springcloudrabbitmqprovider.iml" filepath="$PROJECT_DIR$/spring-cloud-rabbitmq-provider/springcloudrabbitmqprovider.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-ribbon-service/springcloudribbonservice.iml" filepath="$PROJECT_DIR$/spring-cloud-ribbon-service/springcloudribbonservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-sentinel-server/springcloudsentinelserver.iml" filepath="$PROJECT_DIR$/spring-cloud-sentinel-server/springcloudsentinelserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-stream-consumer/springcloudstreamconsumer.iml" filepath="$PROJECT_DIR$/spring-cloud-stream-consumer/springcloudstreamconsumer.iml" />

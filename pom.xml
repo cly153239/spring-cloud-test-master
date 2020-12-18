@@ -24,6 +24,9 @@
         <module>spring-cloud-feign-server</module>
         <module>spring-cloud-sentinel-server</module>
         <module>spring-cloud-nacos-config</module>
+        <module>spring-cloud-rabbitmq-provider</module>
+        <module>spring-cloud-rabbitmq-comsumer</module>
+        <module>spring-cloud-nacos-sentinel-server</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -63,6 +66,13 @@
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
                 <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>2.1.1.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>

@@ -14,18 +14,21 @@
         <module name="spring-cloud-eureka-serve" />
         <module name="springcloudconfigclienttest" />
         <module name="springcloudeurekaserve" />
+        <module name="spring-cloud-config-client" />
         <module name="spring-cloud-ribbon-server" />
         <module name="springcloudfeignserver" />
-        <module name="springcloudnacoscomsumer" />
+        <module name="springcloudrabbitmqprovider" />
         <module name="springcloudsentinelserver" />
         <module name="springcloudconfigserver" />
+        <module name="springcloudnacoscomsumer" />
         <module name="spring-cloud-ribbon-service1" />
         <module name="springcloudstreammyselfproducer" />
         <module name="spring-cloud-nacos-server" />
         <module name="spring-cloud-stream-myself-consumer" />
         <module name="springcloudnacosconfig" />
-        <module name="spring-cloud-config-client" />
+        <module name="springcloudrabbitmqcomsumer" />
         <module name="springcloudstreamconsumer1" />
+        <module name="springcloudnacossentinelserver" />
         <module name="springcloudstreamconsumer" />
       </profile>
     </annotationProcessing>
@@ -44,7 +47,10 @@
       <module name="springcloudfeignserver" target="1.8" />
       <module name="springcloudnacoscomsumer" target="1.8" />
       <module name="springcloudnacosconfig" target="1.8" />
+      <module name="springcloudnacossentinelserver" target="1.8" />
       <module name="springcloudnacosserver" target="1.8" />
+      <module name="springcloudrabbitmqcomsumer" target="1.8" />
+      <module name="springcloudrabbitmqprovider" target="1.8" />
       <module name="springcloudribbonservice" target="1.8" />
       <module name="springcloudribbonservice1" target="1.8" />
       <module name="springcloudsentinelserver" target="1.8" />
@@ -75,7 +81,10 @@
       <module name="springcloudfeignserver" options="-parameters" />
       <module name="springcloudnacoscomsumer" options="-parameters" />
       <module name="springcloudnacosconfig" options="-parameters" />
+      <module name="springcloudnacossentinelserver" options="-parameters" />
       <module name="springcloudnacosserver" options="-parameters" />
+      <module name="springcloudrabbitmqcomsumer" options="-parameters" />
+      <module name="springcloudrabbitmqprovider" options="-parameters" />
       <module name="springcloudribbonservice" options="-parameters" />
       <module name="springcloudribbonservice1" options="-parameters" />
       <module name="springcloudsentinelserver" options="-parameters" />
