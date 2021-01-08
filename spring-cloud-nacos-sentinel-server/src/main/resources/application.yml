@@ -7,6 +7,7 @@ spring:
         server-addr: 127.0.0.1:8848
     sentinel:
       transport:
+        port: 8719
         dashboard: 127.0.0.1:8080   #sentinel控制台的请求地址
       datasource:
         ds1:
@@ -16,7 +17,22 @@ spring:
             group-id: SENTINEL_GROUP
             rule-type: flow
             data-type: json
-
+#        authority:
+#          nacos:
+#            server-addr: localhost:8848
+#            dataId: ${spring.application.name}-authority-rules
+#            groupId: SENTINEL_GROUP
+#            rule-type: authority
+        ds2:
+          nacos:
+            server-addr: 127.0.0.1:8848
+            data-id: ${spring.application.name}-param-rules
+            group-id: SENTINEL_GROUP
+            rule-type: param-flow
+            data-type: json
 
 server:
   port: 8110
+
+
+  #https://www.imooc.com/article/details/id/289464
