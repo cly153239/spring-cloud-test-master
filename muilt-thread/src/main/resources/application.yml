@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: muilt-thread-task
+  redis:
+    host: 127.0.0.1
+    port: 6379
+
+
+server:
+  port: 9093
+# 日志配置
+logging:
+  config: classpath:logback-spring.xml

@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: gateway-service1
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8082/eureka/
+server:
+  port: 9095

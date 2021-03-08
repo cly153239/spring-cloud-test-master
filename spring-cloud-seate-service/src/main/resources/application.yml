@@ -1,0 +1,45 @@
+spring:
+  application:
+    name: seate-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    alibaba:
+      #Seata分布式事务配置(AT模式)
+      seata:
+        enabled: true
+        application-id: ${spring.application.name}
+        #客户端和服务端在同一个事务组
+        tx-service-group: my_test_tx_group
+        enable-auto-data-source-proxy: true
+        service:
+          vgroup-mapping:
+            my_test_tx_group: default
+        config:
+          type: nacos
+          nacos:
+            namespace: "public"
+            serverAddr: 127.0.0.1:8848
+            group: SEATA_GROUP
+            username: "nacos"
+            password: "nacos"
+        #服务注册到nacos
+        registry:
+          type: nacos
+          nacos:
+            application: seata-server
+            server-addr: 127.0.0.1:8848
+            group: SEATA_GROUP
+            namespace: "public"
+            username: "nacos"
+            password: "nacos"
+            cluster: default
+server:
+  port: 8111
+
+#Dalston及以上的版本中，打开断路器
+feign:
+  hystrix:
+    enabled: true
+

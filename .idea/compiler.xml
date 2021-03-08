@@ -10,29 +10,35 @@
         <module name="springcloudthread" />
         <module name="spring-cloud-stream-producer" />
         <module name="springcloudribbonservice" />
-        <module name="springcloudzuulserver" />
+        <module name="springcloudnacossentinelserver" />
         <module name="spring-cloud-eureka-serve" />
         <module name="springcloudconfigclienttest" />
         <module name="springcloudeurekaserve" />
-        <module name="spring-cloud-config-client" />
+        <module name="springcloudgateway" />
+        <module name="springcloudgatewayservice1" />
         <module name="spring-cloud-ribbon-server" />
         <module name="springcloudfeignserver" />
         <module name="springcloudrabbitmqprovider" />
+        <module name="springcloudgatewayservice2" />
         <module name="springcloudsentinelserver" />
+        <module name="springcloudstreamconsumer1" />
         <module name="springcloudconfigserver" />
-        <module name="springcloudnacoscomsumer" />
-        <module name="spring-cloud-ribbon-service1" />
+        <module name="springcloudrabbitmqcomsumer" />
+        <module name="muiltthread" />
         <module name="springcloudstreammyselfproducer" />
+        <module name="springcloudseateservice" />
         <module name="spring-cloud-nacos-server" />
         <module name="spring-cloud-stream-myself-consumer" />
+        <module name="springcloudnacoscomsumer" />
         <module name="springcloudnacosconfig" />
-        <module name="springcloudrabbitmqcomsumer" />
-        <module name="springcloudstreamconsumer1" />
-        <module name="springcloudnacossentinelserver" />
+        <module name="spring-cloud-config-client" />
+        <module name="spring-cloud-ribbon-service1" />
         <module name="springcloudstreamconsumer" />
+        <module name="springcloudzuulserver" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="muiltthread" target="1.8" />
       <module name="spring-cloud-config-client" target="1.8" />
       <module name="spring-cloud-eureka-serve" target="1.8" />
       <module name="spring-cloud-nacos-server" target="1.8" />
@@ -45,6 +51,9 @@
       <module name="springcloudconfigclienttest" target="1.8" />
       <module name="springcloudconfigserver" target="1.8" />
       <module name="springcloudfeignserver" target="1.8" />
+      <module name="springcloudgateway" target="1.8" />
+      <module name="springcloudgatewayservice1" target="1.8" />
+      <module name="springcloudgatewayservice2" target="1.8" />
       <module name="springcloudnacoscomsumer" target="1.8" />
       <module name="springcloudnacosconfig" target="1.8" />
       <module name="springcloudnacossentinelserver" target="1.8" />
@@ -53,6 +62,7 @@
       <module name="springcloudrabbitmqprovider" target="1.8" />
       <module name="springcloudribbonservice" target="1.8" />
       <module name="springcloudribbonservice1" target="1.8" />
+      <module name="springcloudseateservice" target="1.8" />
       <module name="springcloudsentinelserver" target="1.8" />
       <module name="springcloudstreamconsumer" target="1.8" />
       <module name="springcloudstreamconsumer1" target="1.8" />
@@ -67,6 +77,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="muiltthread" options="-parameters" />
       <module name="spring-cloud-config-client" options="-parameters" />
       <module name="spring-cloud-eureka-serve" options="-parameters" />
       <module name="spring-cloud-nacos-server" options="-parameters" />
@@ -79,6 +90,9 @@
       <module name="springcloudconfigserver" options="-parameters" />
       <module name="springcloudeurekaserve" options="-parameters" />
       <module name="springcloudfeignserver" options="-parameters" />
+      <module name="springcloudgateway" options="-parameters" />
+      <module name="springcloudgatewayservice1" options="-parameters" />
+      <module name="springcloudgatewayservice2" options="-parameters" />
       <module name="springcloudnacoscomsumer" options="-parameters" />
       <module name="springcloudnacosconfig" options="-parameters" />
       <module name="springcloudnacossentinelserver" options="-parameters" />
@@ -87,6 +101,7 @@
       <module name="springcloudrabbitmqprovider" options="-parameters" />
       <module name="springcloudribbonservice" options="-parameters" />
       <module name="springcloudribbonservice1" options="-parameters" />
+      <module name="springcloudseateservice" options="-parameters" />
       <module name="springcloudsentinelserver" options="-parameters" />
       <module name="springcloudstreamconsumer" options="-parameters" />
       <module name="springcloudstreamconsumer1" options="-parameters" />

@@ -2,11 +2,15 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/muilt-thread" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-config-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-config-client-test" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-eureka-serve" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-feign-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-gateway-service1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-gateway-service2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-nacos-comsumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-nacos-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-nacos-sentinel-server" charset="UTF-8" />
@@ -16,6 +20,7 @@
     <file url="file://$PROJECT_DIR$/spring-cloud-ribbon-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-ribbon-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-ribbon-service1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-seate-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-sentinel-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-stream-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-stream-consumer1" charset="UTF-8" />
